@@ -8,7 +8,7 @@
 .sidebar{
     background-color: #002245;
     position: fixed;
-    height: 100vh;
+    height: 100%;
     width: 26%;
 }
 .logo{
@@ -55,7 +55,8 @@ a:hover{
 .showcase{
     
     background-image: url("../images/1.jpg");
-    height: 100vh;
+    background-repeat: no-repeat;
+    padding-bottom: 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
