@@ -292,6 +292,7 @@ a:hover{
 }
 .client{
     background-image: url("../images/bag.jpg");
+    background-color:black;
     width: 100%;
     height: 300px;
     display: flex;
