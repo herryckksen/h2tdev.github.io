@@ -291,7 +291,7 @@ a:hover{
     background-color: #4e0808;
 }
 .client{
-    background-image: url("/images/bag.jpg");
+    background-image: url("../images/bag.jpg");
     width: 100%;
     height: 300px;
     display: flex;
