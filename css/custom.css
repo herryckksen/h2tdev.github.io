@@ -429,14 +429,15 @@ button{
 
 
 
-@media screen and (min-width: 320px) and (max-width: 600px){
+@media (min-width: 320px) and (max-width: 480px){
     *{
         margin: 0;
         padding: 0;
     }
-    body{
-        width: 100%;
-    }
+    html, body{
+        width:100%;
+        overflow-x:hidden;
+        }
     body > .flex-container{
         display: flex;
         flex-direction: column;
