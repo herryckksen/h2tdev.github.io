@@ -81,6 +81,31 @@ a:hover{
     color: rgb(211, 83, 83);
     font-weight: bolder;
 }
+.specialist::before{
+    content: "Web Developer";
+    animation: animate 4s ease 0s infinite normal;
+    font-weight: bolder;
+    text-shadow:0px 3px 7px #ffffff;
+    padding-left: 10px;
+    color: brown;
+
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Web Developer";
+        transform: translateY(300px);
+    }
+
+    50% {
+        content: "Freelancer";
+    }
+
+    75% {
+        content: "UI designer";
+    }
+}
 .socialmedia > ul{
     margin-top: 120px;
     display: flex;
@@ -404,7 +429,7 @@ button{
 
 
 
-@media screen and (min-width: 320px) and (max-width: 540px){
+@media screen and (min-width: 320px) and (max-width: 600px){
     *{
         margin: 0;
         padding: 0;
