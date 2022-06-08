@@ -12,12 +12,13 @@
     width: 26%;
 }
 .logo{
-    margin-left: -10px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 .logo > img{
     padding: 0;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 100px;
 }
 nav{
     margin: 45px;
@@ -83,7 +84,7 @@ a:hover{
 }
 .specialist::before{
     content: "Web Developer";
-    animation: animate 4s ease 0s infinite normal;
+    animation: animate 4s ease-in-out 0s infinite normal;
     font-weight: bolder;
     text-shadow:0px 3px 7px #ffffff;
     padding-left: 10px;
@@ -333,7 +334,7 @@ a:hover{
 .button{
     padding-top: 100px;
 }
-.button-all, .button-design, .button-branding, .button-photography{
+.button-web, .button-design, .button-software{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     padding-right: 20px;
@@ -341,11 +342,19 @@ a:hover{
     color: black;
     font-weight: bolder;
 }
-.all, .design, .branding, .photography{
+.web, .design, .software{
     padding-top: 50px;
 
 }
-.all1{
+.website{
+    display: flex;
+    flex-wrap: wrap;
+}
+.idesign{
+    display: flex;
+    flex-wrap: wrap;
+}
+.softwareapp{
     display: flex;
     flex-wrap: wrap;
 }
@@ -354,7 +363,20 @@ a:hover{
     height: 270px;
     margin-right: 40px;
     margin-bottom: 40px;
+    animation: ann .5s ease-in-out 0s normal;
 }
+@keyframes ann {
+
+    0% {
+        width: 200px;
+        height: 200px;
+    }
+    100%{
+        width: 270px;
+        height: 270px;
+    }
+}
+
 .port-layout{
     background-color: #002245;
 }

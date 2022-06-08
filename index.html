@@ -54,7 +54,7 @@
             <img src="images/eric.jpg" alt="mypicture" />
           </div>
           <h1>OKASANMI <span class="span">ERIC ARIYO</span></h1>
-          <p>I am a<span class="specialist"></span></p>
+          <p>I am a<span class="specialist animation"></span></p>
           <div>
             <a href="#about"
               ><img
@@ -75,7 +75,7 @@
               <img src="./images/mypic.jpg" alt="my picture" />
             </div>
             <div class="details-cv">
-              <h4>I'm Eric Ariyo and <span class="specialist"></span></h4>
+              <h4>I'm Eric Ariyo and <span class="specialist animation"></span></h4>
               <p>
                 Hi! My name is <span class="span">Okasanmi Eric Ariyo</span>. I
                 am a Web Developer, and I'm very passionate and dedicated to my
@@ -257,24 +257,36 @@
           </div>
           <div class="portfolio-type">
             <div class="button">
-              <a class="button-all" href="#portfolio">All</a>
-              <a class="button-design" href="#portfolio">Design</a>
-              <a class="button-branding" href="#portfolio">Branding</a>
-              <a class="button-photography" href="#portfolio">Photography</a>
+              <a class="button-web" href="#portfolio" onclick="webVisible()">Web App</a>
+              <a class="button-design" href="#portfolio" onclick="designVisible()">Design</a>
+              <a class="button-software" href="#portfolio" onclick="softwareVisible()">Software</a>
             </div>
-            <div class="all">
-              <ul class="all1">
-                <li class="port-layout"></li>
+            <div class="web" id="web">
+              <ul class="website">
+                <li class="port-layout">232</li>
+                <li class="port-layout1">44</li>
+                <li class="port-layout2"></li>
+
+              </ul>
+            </div>
+            <div class="design" id="design">
+              <ul class="idesign">
+                
                 <li class="port-layout1"></li>
                 <li class="port-layout2"></li>
-                <li class="port-layout3"></li>
+                <li class="port-layout3">5676</li>
                 <li class="port-layout4"></li>
                 <li class="port-layout5"></li>
               </ul>
             </div>
-            <div class="design"></div>
-            <div class="branding"></div>
-            <div class="photography"></div>
+            <div class="software" id="software">
+              <ul class="softwareapp">
+
+                <li class="port-layout3">7788</li>
+                <li class="port-layout4"></li>
+                <li class="port-layout5"></li>
+              </ul>
+            </div>
           </div>
         </section>
         <section class="client">
@@ -426,5 +438,6 @@
         </footer>
       </div>
     </div>
+    <script src="./js/custom.js"></script>
   </body>
 </html>
