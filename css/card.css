@@ -1,0 +1,22 @@
+.card-contain{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.card-title h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: brown;
+}
+.card-description p{
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+hr{
+    margin-bottom: 15px;
+}
+.card-button a{
+    color: brown;
+}

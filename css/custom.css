@@ -44,9 +44,11 @@ a{
     text-align: left;
     color: white;
     text-decoration: none;
+    
 }
 a:hover{
     color: brown;
+    border-bottom: 2px solid brown;
 }
 .section{
     margin-left: 26%;
@@ -334,7 +336,7 @@ a:hover{
 .button{
     padding-top: 100px;
 }
-.button-web, .button-design, .button-software{
+.button-web, .button-design, .button-software, .button-machine{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     padding-right: 20px;
@@ -342,28 +344,25 @@ a:hover{
     color: black;
     font-weight: bolder;
 }
-.web, .design, .software{
+.web, .design, .software, .machine{
     padding-top: 50px;
 
 }
-.website{
+.website, .idesign, .softwareapp, .machineapp{
     display: flex;
     flex-wrap: wrap;
 }
-.idesign{
-    display: flex;
-    flex-wrap: wrap;
-}
-.softwareapp{
-    display: flex;
-    flex-wrap: wrap;
-}
-.port-layout, .port-layout1, .port-layout2, .port-layout3, .port-layout4, .port-layout5{
+.port-layout{
     width: 270px;
     height: 270px;
     margin-right: 40px;
     margin-bottom: 40px;
     animation: ann .5s ease-in-out 0s normal;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.port-layout:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 @keyframes ann {
 
@@ -377,24 +376,7 @@ a:hover{
     }
 }
 
-.port-layout{
-    background-color: #002245;
-}
-.port-layout1{
-    background-color: #45002e;
-}
-.port-layout2{
-    background-color: #064500;
-}
-.port-layout3{
-    background-color: #3f3405;
-}
-.port-layout4{
-    background-color: #451c00;
-}
-.port-layout5{
-    background-color: #4e0808;
-}
+
 .client{
     background-image: url("../images/bag.jpg");
     width: 100%;
